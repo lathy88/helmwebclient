@@ -5,6 +5,7 @@ go 1.16
 require (
 	github.com/gofrs/flock v0.8.1
 	github.com/gorilla/mux v1.8.0
+	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.8.1
 	gopkg.in/yaml.v2 v2.4.0
