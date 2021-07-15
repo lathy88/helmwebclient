@@ -3,17 +3,17 @@ Helm Web Client API is a simple Service which has endpoints to Add/Remove/List/D
 
 # How to build
 From the helmwebclient directory run,
-
+```
 go mod init helmwebclient
 go mod init
 go mod tidy
 go build -o helmwebclient
-
+```
 # How to Run locally
 From the helmwebclient directory run,
-
+```
 go run helmAPI.go
-
+```
 # How to Run in Docker
 Build the Docker Image & Start the container with following commands,
 ```
@@ -29,7 +29,6 @@ kubectl create ns helmwebclient
 kubectl apply -f helmwebclient.yaml
 kubectl apply -f serviceaccount.yaml
 ```
-
 OR
 ```
 helm install helmwebclient --namespace helmwebclient -f overridefile
