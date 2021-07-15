@@ -34,3 +34,9 @@ OR
 helm install helmwebclient --namespace helmwebclient -f overridefile
 ```
 All the values can be overridden.
+
+# Bugs & New Features
+1. Pass override file during helm install api
+2. Add helm chart
+3. Support Multiple Cluster k8's deployment
+4. Add unit tests
