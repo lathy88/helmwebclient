@@ -1,5 +1,5 @@
 # Helmwebclient
-Helm Web Client API is a simple Service which has endpoints to Add/Remove/List/Delete repositories & Install/Uninstall Charts in Kubernetes Cluster using helm library.
+Helm Web Client API is a simple Service which has endpoints to Add/Remove/List/Delete repositories & Install/Uninstall Charts in Kubernetes Cluster using helm library. NOT CLI ;)
 
 # How to build
 From the helmwebclient directory run,
